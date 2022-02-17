@@ -3,7 +3,7 @@ import { flipACoin } from "./modules/coin.mjs";
 
 const args = (process.argv.slice(2))
 const call = minimist(args)['call']
-console.log(call)
+
 
 if (call == null) {
     console.log('Error: no input.')

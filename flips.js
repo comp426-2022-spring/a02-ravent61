@@ -10,7 +10,6 @@ const number = minimist(args)['number'] || 1
 const flips = coinFlips(number)
 const count = countFlips(flips)
 
-console.log(args)
 console.log(flips)
 console.log(count)
 

@@ -10,5 +10,4 @@ if (call == 'heads' || call == 'tails') {
 }else{
     console.log('Error: no input.')
     console.log('Usage: node guess-flip --call=[heads|tails]')
-    process.exit(1)
 }

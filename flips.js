@@ -11,5 +11,13 @@ const flips = coinFlips(number)
 const count = countFlips(flips)
 
 console.log(flips)
-console.log(count)
+if (count.heads == 0 && count.tails == 1) {
+    console.log({tails: 1})
+}else{
+    if (count.heads == 1 && count.tails == 0) {
+        console.log({heads: 1})
+    }else{
+        console.log(count)
+    }
+}
 

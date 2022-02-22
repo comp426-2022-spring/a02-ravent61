@@ -9,7 +9,7 @@ const number = minimist(args)['number'] || 1
 
 const flips = coinFlips(number)
 const count = countFlips(flips)
-
+console.log(number)
 console.log(flips)
 if (count.heads == 0 && count.tails == 1) {
     console.log({tails: 1})
